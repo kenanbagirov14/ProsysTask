@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ExamAddDTO
+
+<div class="card-body">
+    <div class="container">
+        <div class="row">
+            <form asp-controller="Exam" asp-action="Update" method="post" class="form-group">
+                <div class="col-6">
+                    <span>Date</span>
+                    <input type="datetime-local"   name="ExamDate" class="form-control" value="@Model.ExamDate" />
+                     <span asp-validation-for="@Model.ExamDate" class="text-danger"></span>
+                </div>
+                 <div class="col-6">
+                    <span>Result  Grade </span>
+                    <input type="number" name="ResultGrade" class="form-control" value="@Model.ResultGrade" />
+                    <span asp-validation-for="@Model.ResultGrade" class="text-danger"></span>
+                </div>
+                <div class="col-6">
+                    <span>Student</span>
+                     <select name="StudentId" class="form-control">
+                         @foreach (var item in Model.Students)
+                        {
+                            <option value="@item.Id">@item.Name  @item.LastName</option>
+                        }
+                     </select>
+                    <span asp-validation-for="@Model.StudentId" class="text-danger"></span>
+                </div>
+                <div class="col-6">
+                    <span>Lesson</span>
+                     <select name="LessonId" class="form-control">
+                         @foreach (var item in Model.Lessons)
+                        {
+                            <option value="@item.Id">@item.Code @item.Name</option>
+                        }
+                     </select>
+                    <span asp-validation-for="@Model.LessonId" class="text-danger"></span>
+                </div>
+                <button type="submit"  class="btn btn-primary mt-4">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\bin\Debug\net6.0\Exam.Application.deps.json
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\bin\Debug\net6.0\Exam.Application.dll
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\bin\Debug\net6.0\Exam.Application.pdb
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\bin\Debug\net6.0\Exam.Domain.dll
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\bin\Debug\net6.0\Exam.Domain.pdb
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.AssemblyInfo.cs
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.csproj.CopyComplete
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.dll
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\refint\Exam.Application.dll
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\Exam.Application.pdb
+C:\Users\admin\Desktop\Prosys\Exam\src\Core\Exam.Application\obj\Debug\net6.0\ref\Exam.Application.dll

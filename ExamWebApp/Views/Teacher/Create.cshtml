@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model TeacherAddDTO
+
+<div class="card-body">
+    <div class="container">
+        <div class="row">
+            <form asp-controller="Teacher" asp-action="Create" method="post" class="form-group">
+                <div class="col-6">
+                    <span>First Name</span>
+                    <input type="text" name="FirstName" class="form-control" value="@Model.FirstName" />
+                     <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                </div>
+                 <div class="col-6">
+                    <span>Last Name</span>
+                    <input type="text" name="LastName" class="form-control" value="@Model.LastName" />
+                    <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+                </div>
+                <button type="submit"  class="btn btn-primary mt-4">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

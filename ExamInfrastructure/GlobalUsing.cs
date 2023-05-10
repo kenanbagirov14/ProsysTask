@@ -1,0 +1,15 @@
+﻿global using Exam.Application.Interfaces.Repositories;
+global using Exam.Application.Interfaces.Repositories.Base;
+global using Exam.Domain.Entities;
+global using ExamPersistence.DBContext;
+global using Microsoft.EntityFrameworkCore;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Linq.Expressions;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Exam.Application.Interfaces.Services;
+global using AutoMapper;
+global using ExamInfrastructure.Services;
+global using Exam.Application.Exeptions;

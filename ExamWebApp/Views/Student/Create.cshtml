@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model StudentAddDTO
+
+<div class="card-body">
+    <div class="container">
+        <div class="row">
+            <form asp-controller="Student" asp-action="Create" method="post" class="form-group">
+                <div class="col-6">
+                    <span>First Name</span>
+                    <input type="text" name="Name" class="form-control" value="@Model.Name" />
+                     <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                </div>
+                 <div class="col-6">
+                    <span>Last Name</span>
+                    <input type="text" name="LastName" class="form-control" value="@Model.LastName" />
+                    <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+                </div>
+                <div class="col-6">
+                    <span>Class Number</span>
+                     <select name="ClassRoomId" class="form-control">
+                         @foreach (var item in Model.ClassRooms)
+                        {
+                            <option value="@item.Id">@item.Number</option>
+                        }
+                     </select>
+                    <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+                </div>
+                <button type="submit"  class="btn btn-primary mt-4">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
