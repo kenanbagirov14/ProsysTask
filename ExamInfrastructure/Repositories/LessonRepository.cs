@@ -11,7 +11,7 @@ namespace ExamInfrastructure.Repositories
 {
     public class LessonRepository : Repository<Lesson>, ILessonRepository
     {
-        public LessonRepository(ExamDBContext examDBContext) : base(examDBContext)
+        public LessonRepository(DbContext examDBContext) : base(examDBContext)
         {
         }
     }

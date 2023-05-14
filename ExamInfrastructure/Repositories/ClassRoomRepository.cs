@@ -9,7 +9,7 @@ namespace ExamInfrastructure.Repositories
 {
     public class ClassRoomRepository : Repository<ClassRoom>, IClassRoomRepository
     {
-        public ClassRoomRepository(ExamDBContext examDBContext) : base(examDBContext)
+        public ClassRoomRepository(DbContext examDBContext) : base(examDBContext)
         {
         }
     }

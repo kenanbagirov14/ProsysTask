@@ -8,7 +8,7 @@ namespace ExamInfrastructure.Repositories
 {
     public class StudentRepository : Repository<Student>, IStudentRepository
     {
-        public StudentRepository(ExamDBContext examDBContext) : base(examDBContext)
+        public StudentRepository(DbContext examDBContext) : base(examDBContext)
         {
         }
     }

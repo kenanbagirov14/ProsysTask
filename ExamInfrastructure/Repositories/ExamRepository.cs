@@ -8,7 +8,7 @@ namespace ExamInfrastructure.Repositories
 {
     public class ExamRepository : Repository<Exam.Domain.Entities.Exam>, IExamRepository
     {
-        public ExamRepository(ExamDBContext examDBContext) : base(examDBContext)
+        public ExamRepository(DbContext examDBContext) : base(examDBContext)
         {
         }
     }

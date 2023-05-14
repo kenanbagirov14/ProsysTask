@@ -69,7 +69,7 @@ namespace ExamInfrastructure.Repositories
         public int Update(TEntity updateModel)
         {
             this.entity.Attach(updateModel);
-            _examDBContext.Entry(entity).State = EntityState.Modified;
+            _examDBContext.Entry(updateModel).State = EntityState.Modified;
             return _examDBContext.SaveChanges();
         }
     }

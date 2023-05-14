@@ -15,6 +15,8 @@ namespace ExamPersistence.Extentions
         public static IServiceCollection AddInfrastructurePersistence(this IServiceCollection services, IConfiguration configuration)
         {
 
+            services.AddScoped<DbContext, ExamDBContext>();
+
             services.AddDbContext<ExamDBContext>(conf =>
             {
                 string connectionString = configuration.GetConnectionString("examConnectionString");
